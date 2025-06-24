@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo Gorduroso</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <link rel="icon" href="imgs/logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ">
+            <a href="#" class="navbar-brand">              
+                    <img src="imgs/logo.png" width="30" alt="Logo Gordura" class="d-inline-block alingn-text-top">
+            </a>
+                <button class="navbar-toggler" type="button" aria-expanded="false" data-bs-toggle="collapse" aria-label="Esconder a navegação" aria-controls="navbarSupportedContent" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="ms-auto">
+                
+                    <ul class="menulink navbar-nav ml-auto  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Receitas</a>
+                    
+                        <ul class="dropdown-menu">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#receita 1">Receita 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#receita 2">Receita 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#receita 3">Receita 3</a>
+                        </li>
+                        </ul>
+                        </li>
+                    </ul>
+                </div>
+         </div>
+    </div>
+    </nav>
+    <main class="container-fluid">
+        <div class="row text-center">
+           <div class="col-12">
+               <h2>Mande suas dúvidas!!!</h2>
+           </div> 
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form action="/duvidas.php" method="get">
+                    <label for="txtNome">Nome:</label>
+                    <input type=" text" id="txtNome" value="" name="txtNome"><br>
+                    <label for="txtEmail">E-mail:</label>
+                    <input type="email" id="txtEmail" value="" name="txtEmail"><br>
+                    <label for="txtUF">Estado</label>
+                    <select name="txtUF" id="txtUF">
+                        <option value=""
+                    </select>
+                </form>
+            </div>
+        </div>
+           
+    </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>        
